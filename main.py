@@ -1,8 +1,8 @@
 nums = []*10
 output = []
-N = 3
+N = int(input("Enter the divisor number: "))
 
-print("Enter any 10 integer numbers to determine which of them are divisible by 3", "\n")
+print("Enter any 10 integer numbers to determine which of them are divisible by", N, "\n")
 
 while len(nums) < 10:
     x = int(input())
